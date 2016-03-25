@@ -1,0 +1,163 @@
+
+D:\quake3\MissionPack\code\cgame>mkdir vm 
+
+D:\quake3\MissionPack\code\cgame>cd vm 
+
+D:\quake3\MissionPack\code\cgame\vm>set cc=lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../game/bg_misc.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../game/bg_pmove.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../game/bg_slidemove.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../game/bg_lib.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../game/q_math.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../game/q_shared.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_consolecmds.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_draw.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_drawtools.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_effects.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_ents.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_event.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_info.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_localents.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_main.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_marks.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_players.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_playerstate.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_predict.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_scoreboard.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_servercmds.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_snapshot.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_view.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_weapons.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../../ui/ui_shared.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_rankings.c 
+
+D:\quake3\MissionPack\code\cgame\vm>lcc -DQ3_VM -DMISSIONPACK -S -Wf-target=bytecode -Wf-g -I..\..\cgame -I..\..\game -I..\..\ui  ../cg_newDraw.c 
+
+D:\quake3\MissionPack\code\cgame\vm>q3asm -f ../cgame_ta 
+outputFilename: \quake3\missionpack\vm\cgame
+pass 0: cg_main
+pass 0: ..\cg_syscalls
+pass 0: cg_consolecmds
+cg_consolecmds:1044 Multiple definitions for rankingsActive
+pass 0: cg_draw
+cg_draw:13570 Multiple definitions for rankingsActive
+pass 0: cg_drawtools
+cg_drawtools:4318 Multiple definitions for rankingsActive
+pass 0: cg_effects
+cg_effects:3834 Multiple definitions for rankingsActive
+pass 0: cg_ents
+cg_ents:5800 Multiple definitions for rankingsActive
+pass 0: cg_event
+cg_event:6660 Multiple definitions for rankingsActive
+pass 0: cg_info
+cg_info:1503 Multiple definitions for rankingsActive
+pass 0: cg_localents
+cg_localents:5495 Multiple definitions for rankingsActive
+pass 0: cg_marks
+cg_marks:2011 Multiple definitions for rankingsActive
+pass 0: cg_players
+cg_players:12872 Multiple definitions for rankingsActive
+pass 0: cg_playerstate
+cg_playerstate:2594 Multiple definitions for rankingsActive
+pass 0: cg_predict
+cg_predict:2969 Multiple definitions for rankingsActive
+pass 0: cg_scoreboard
+cg_scoreboard:3747 Multiple definitions for rankingsActive
+pass 0: cg_servercmds
+cg_servercmds:5657 Multiple definitions for rankingsActive
+pass 0: cg_snapshot
+cg_snapshot:1532 Multiple definitions for rankingsActive
+pass 0: cg_view
+cg_view:4061 Multiple definitions for rankingsActive
+pass 0: cg_weapons
+cg_weapons:12486 Multiple definitions for rankingsActive
+pass 0: bg_slidemove
+pass 0: bg_pmove
+pass 0: bg_lib
+pass 0: bg_misc
+pass 0: q_math
+pass 0: q_shared
+pass 0: ui_shared
+pass 0: cg_rankings
+cg_rankings:113 Multiple definitions for rankingsActive
+pass 1: cg_main
+cg_main:166 ERROR: symbol CG_KeyEvent undefined
+cg_main:185 ERROR: symbol CG_MouseEvent undefined
+cg_main:213 ERROR: symbol CG_EventHandling undefined
+cg_main:948 ERROR: symbol drawTeamOverlayModificationCount undefined
+cg_main:8521 ERROR: symbol CG_GetGameStatusText undefined
+cg_main:8548 ERROR: symbol CG_GetKillerText undefined
+cg_main:8727 ERROR: symbol CG_OwnerDraw undefined
+cg_main:8732 ERROR: symbol CG_GetValue undefined
+cg_main:8737 ERROR: symbol CG_OwnerDrawVisible undefined
+cg_main:8742 ERROR: symbol CG_RunMenuScript undefined
+cg_main:8747 ERROR: symbol CG_GetTeamColor undefined
+cg_main:9549 ERROR: symbol CG_InitTeamChat undefined
+pass 1: ..\cg_syscalls
+pass 1: cg_consolecmds
+cg_consolecmds:543 ERROR: symbol CG_SelectNextPlayer undefined
+cg_consolecmds:556 ERROR: symbol CG_SelectPrevPlayer undefined
+pass 1: cg_draw
+cg_draw:4317 ERROR: symbol sortedTeamPlayers undefined
+cg_draw:4395 ERROR: symbol numSortedTeamPlayers undefined
+pass 1: cg_drawtools
+pass 1: cg_effects
+pass 1: cg_ents
+pass 1: cg_event
+pass 1: cg_info
+pass 1: cg_localents
+pass 1: cg_marks
+pass 1: cg_players
+pass 1: cg_playerstate
+pass 1: cg_predict
+pass 1: cg_scoreboard
+pass 1: cg_servercmds
+cg_servercmds:4783 ERROR: symbol CG_SetPrintString undefined
+pass 1: cg_snapshot
+pass 1: cg_view
+pass 1: cg_weapons
+pass 1: bg_slidemove
+pass 1: bg_pmove
+pass 1: bg_lib
+pass 1: bg_misc
+pass 1: q_math
+pass 1: q_shared
+pass 1: ui_shared
+pass 1: cg_rankings
+35 total errors
+code segment:  337724
+data segment:   12268
+lit  segment:   25644
+bss  segment: 3484648
+instruction count: 113509
+Not writing a file due to errors
+Writing \quake3\missionpack\vm\cgame.map...
+   10 seconds elapsed
+
+D:\quake3\MissionPack\code\cgame\vm>cd .. 
